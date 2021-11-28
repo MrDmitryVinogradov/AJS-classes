@@ -6,5 +6,5 @@ test('should create Undead', () => {
 });
 
 test('name length', () => {
-    expect(() => new Undead("fffffffffffff")).toThrow('Character name length must be 3-9 symbols');
-})
+  expect(() => new Undead('fffffffffffff')).toThrow('Character name length must be 3-9 symbols');
+});

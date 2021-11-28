@@ -6,5 +6,5 @@ test('should create Daemon', () => {
 });
 
 test('name length', () => {
-    expect(() => new Daemon("fffffffffffff")).toThrow('Character name length must be 3-9 symbols');
-})
+  expect(() => new Daemon('fffffffffffff')).toThrow('Character name length must be 3-9 symbols');
+});

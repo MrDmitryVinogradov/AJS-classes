@@ -6,5 +6,5 @@ test('should create Bowerman', () => {
 });
 
 test('name length', () => {
-    expect(() => new Bowerman("fffffffffffff")).toThrow('Character name length must be 3-9 symbols');
-})
+  expect(() => new Bowerman('fffffffffffff')).toThrow('Character name length must be 3-9 symbols');
+});

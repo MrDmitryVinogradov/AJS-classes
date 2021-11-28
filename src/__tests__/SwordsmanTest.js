@@ -6,5 +6,5 @@ test('should create Swordsman', () => {
 });
 
 test('name length', () => {
-    expect(() => new Swordsman("fffffffffffff")).toThrow('Character name length must be 3-9 symbols');
-})
+  expect(() => new Swordsman('fffffffffffff')).toThrow('Character name length must be 3-9 symbols');
+});
